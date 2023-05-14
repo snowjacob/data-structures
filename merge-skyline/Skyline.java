@@ -4,12 +4,6 @@ import java.util.*;
 
 public class Skyline {
 	
-	/* Author : Jacob Snow
-	 * Class : CSCI 405
-	 * Programming Assignment 1
-	 * 
-	 */
-
 	public static void main(String[] args) {
 		List<int[]> buildings = new ArrayList<int[]>();
 		Scanner sc = new Scanner(System.in);
