@@ -9,9 +9,9 @@ import java.util.Scanner;
  * Imagine there is a field of objects that you may only traverse once. From top to bottom,
  * you must maximize the numer of objects obtained. Once you get an object say from row one,
  * you may only move down-left, down-right, or down. The following field yields 9 truffles.
- * [1	2	3]
- * [2	4	2]
- * [2	1	1]
+ * [1   2   3]
+ * [2   4   2]
+ * [2   1   1]
  */
 
 public class TrufflePath {
