@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Leaf Weave Menu</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/clothes.css">
+    <!--[if lt IE 9]-->
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" width="120px" alt="logo"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="account.html">Account</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <a href="shopping-cart.html"><img src="images/shopping-cart-icon.png" width="30px" height="30px"></a>
+                <img src="images/menu-icon.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Shopping that benefits everything... <br>Including your wallet!</h1>
+                    <p>Leaf Weave isn't just any ordinary clothing store. Here, we ensure that the products <br>that are
+                        offered benefit both the people that create our clothes and the environment. All at a cost
+                        that'll really help everyone!
+                    </p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/friends-2.jpg">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- featured items -->
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/model-1.webp">
+                </div>
+                <div class="col-3">
+                    <img src="images/model-4.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/model-2.jpg">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- featured products -->
+    <div class="small-container">
+        <h2 class="title">Featured Items</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/black-hoodie.jpg">
+                <h4>Black Hoodie</h4>
+                <div class="rating">
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                </div>
+                <p>$32.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/womens-blue-jeans-1.jpg">
+                <h4>Women's Blue Jeans</h4>
+                <div class="rating">
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                </div>
+                <p>$24.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/khakis.jpg">
+                <h4>Unisex Khakis</h4>
+                <div class="rating">
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+                </div>
+                <p>$22.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/orange-sweater.jpg">
+                <h4>Orange Sweater</h4>
+                <div class="rating">
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                </div>
+                <p>$22.99</p>
+            </div>
+        </div>
+
+
+
+        <h2 class="title">Latest Arrivals</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/black-shirt.jpg">
+                <h4>Black Shirt</h4>
+                <div class="rating">
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+                </div>
+                <p>$9.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/red-hoodie.jpg">
+                <h4>Red Hoodie</h4>
+                <div class="rating">
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                </div>
+                <p>$30.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/mens-blue-jeans-1.jpg">
+                <h4>Men's Blue Jeans</h4>
+                <div class="rating">
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                </div>
+                <p>$22.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/grey mid socks.jpg">
+                <h4>Gray Cotton Socks</h4>
+                <div class="rating">
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+                </div>
+                <p>$22.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/blue-shirt.jpg">
+                <h4>Blue Shirt</h4>
+                <div class="rating">
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                </div>
+                <p>$9.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/blue-sweater.jpg">
+                <h4>Blue Sweater</h4>
+                <div class="rating">
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+                </div>
+                <p>$19.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/green-shirt.jpg">
+                <h4>Green Shirt</h4>
+                <div class="rating">
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                </div>
+                <p>$9.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/mens-blue-jeans-2.jpg">
+                <h4>Men's Sea Blue Jeans</h4>
+                <div class="rating">
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                </div>
+                <p>$21.99</p>
+            </div>
+        </div>
+    </div>
+
+    <!--promotion-->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/blanket.png" class=promotion-img>
+                </div>
+                <div class="col-2">
+                    <p>Only available on Leaf Weave</p>
+                    <h1>Luxurious Taylor's Cotton &copy; Hand-Knit Cotton Blanket</h1>
+                    <small>Created by the local and well-known Taylor Farms, These luxurious, hypoallergenic blankets ensure a
+                        soft-silky smooth touch thanks to its premier cotton. The large, thick threads have been
+                        hand-woven into a 90 x 100 inch blanket to also ensure maximum warmth.</small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- Testimonial --->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <p>Hands down one of the best blankets I have recieved in awhile. Very thick, and it covers my entire queen bed! Had to get another one immediately for my mom.
+                    </p>
+                    <div class="rating">
+                        <p>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                    </div>
+                    <img src="images/reviewer-1.webp">
+                    <h3>Molly Hemmerling</h3>
+                </div>
+                <div class="col-3">
+                    <p>Usually I don't like cotton because I fear that they'll activate my allergies, so seeing this one I was skeptical, but it mentioned being hypoallergenic. It's one of my favorite blankets, I keep it downstairs to wear while I drink my coffee every morning.
+                    </p>
+                    <div class="rating">
+                        <p>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                    </div>
+                    <img src="images/reviewer-2.webp">
+                    <h3>Gina Hunter</h3>
+                </div>
+                <div class="col-3">
+                    <p>Love it! Definitely recommend, 10/10 worth the price. Got a few for my family for Christmas and they all loved them.
+                    </p>
+                    <div class="rating">
+                        <p>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                    </div>
+                    <img src="images/review-4.jpg">
+                    <h3>Sam Harrison</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our app</h3>
+                    <p>Download our app for ios or android devices</p>
+                    <div class="app-logo">
+                        <img src="images/appstore.png">
+                        <img src="images/googleplay.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-tiny.png">
+                    <p>Our purpose is to ensure sustainability, affordability, and happiness, <br>among the environment,
+                        esteemed employees, and delighted customers.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Return Policy</li>
+                        <li>Plant a Tree Guarantee</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Social Media Links</h3>
+                    <ul>
+                        <li><img src="images/facebook.png.crdownload"> Facebook</li>
+                        <li><img src="images/twit.png.crdownload"> Twitter</li>
+                        <li><img src="images/insta.png.crdownload" alt=""> Instagram</li>
+                        <li><img src="images/youtube.png"> YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2022 Jacob Snow, snowj4@wwu.edu</p>
+            <script>
+                var date = document.lastModified;
+                document.write(date);
+            </script>
+        </div>
+    </div>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
