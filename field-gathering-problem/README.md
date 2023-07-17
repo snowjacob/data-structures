@@ -26,8 +26,10 @@ Here's an example of how the solution can be used:
 ```yaml
 $ java TrufflePath.java field.txt
 
-The best path for the gatherer is: [(0, 0), (1, 1), (2, 2)]
-Total truffles collected: 16
+[0, 0] - 6
+[1, 1] - 4
+[2, 2] - 6
+Total truffles: 16
 ```
 where the text file (field.txt) stores the information of the field :
 
