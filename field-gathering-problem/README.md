@@ -32,7 +32,7 @@ Total treasure collected: 16
 where the text file (field.txt) stores the information of the field :
 
 ```
-6  2  4\
-5  4  2\
+6  2  4
+5  4  2
 4  2  6
 ```
