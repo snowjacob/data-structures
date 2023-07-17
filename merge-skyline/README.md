@@ -6,6 +6,8 @@ This folder contains Java console applications related to the "Skyline Problem".
 
 A city's skyline is the outer contour of the silhouette formed by all the buildings in that city when viewed from a distance. Given the locations and heights of all the buildings, your task is to create a program that can efficiently calculate the skyline formed by these buildings collectively. The skyline should be represented as a list of key points in the form `[[x1, y1], [x2, y2], ...]`. Each key point represents the left endpoint of a horizontal segment in the skyline, except for the last point in the list, which always has a y-coordinate of 0 and marks the termination of the skyline where the rightmost building ends. The contour of the skyline includes any ground area situated between the leftmost and rightmost buildings.
 
+![Example](https://1.bp.blogspot.com/-FNDZ4jmKofc/V55S5T09wYI/AAAAAAAABHI/7-NEhhgWOdgMdbiBrByrUNLEd1Cpk3HagCLcB/s1600/skyline-problem.png)
+
 #### Solution Overview
 
 The provided Java code in this repository solves the Skyline Problem using a divide-and-conquer approach. It uses a modified form of the topological-sort algorithm to find the best path for constructing the skyline. The code efficiently merges the skylines of sub-regions to calculate the overall skyline of the city.
