@@ -43,20 +43,10 @@ To see the Skyline Problem solution in action, follow these steps:
 
 Feel free to explore different inputs and observe how the program calculates the skyline based on the given buildings.
 
----
-
 Note: The provided Java code assumes that the necessary dependencies are available and properly configured. Make sure you have Java Development Kit (JDK) installed on your machine.
-
----
 
 By following these steps, you can run the Skyline Problem solution and observe its output.
 
 Enjoy exploring the city skylines!
 
----
-
 **Author**: [Jacob Snow](https://github.com/snowjacob)
-
----
-
-Please customize the README as needed, adding any additional information or sections that are relevant to your project.
