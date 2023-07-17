@@ -1,8 +1,8 @@
-### Data-Structures
+## Data-Structures
 
 Welcome to my data-structures folder! Here you'll find solutions to optimization problems utilizing tools like Queues, Graphs, Arrays, Trees, and more.
 
-##### About
+#### About
 
 In this repository, I explore various solutions for data structure problems, algorithmic challenges, and other interesting programming concepts. These projects have helped me strengthen my understanding of fundamental concepts and develop efficient and optimized solutions.
 
