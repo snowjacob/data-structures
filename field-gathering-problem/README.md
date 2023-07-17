@@ -38,3 +38,7 @@ where the text file (field.txt) stores the information of the field :
 5  4  2
 4  2  6
 ```
+
+By following these steps, you should be able to model the field-gathering optimization problem. This problem utilizes *O(n * m)* time and space complexity, where *n* is the number of rows in the field and *m* is the number of columns. Feel free to reach out to me regarding any issues with the program! I appreciate any feedback 😁
+
+**Author : [Jacob Snow](www.github.com/snowjacob)**
